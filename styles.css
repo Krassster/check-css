@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital@1&family=Sofia+Sans+Semi+Condensed&display=swap');
+
+
+body { 
+    background-color: rgb(194, 252, 232);
+    color:rgb(42, 45, 44);
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+
+    /* font: normal 16px 'Raleway'; */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+.ava {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px gray;
+}
+
+.info p {
+    color: rgb(59, 50, 50);
+    margin: 1px 20px;
+    font-style: italic;
+    font-weight: bold;
+    /* text-decoration: double; */
+    text-transform: capitalize;
+    
+}
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }    
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 75%;
+    margin: auto;
+    padding-top: 30px;
+}
+/* 
+.contact {
+    background: rgb(119, 35, 210);
+    padding: 15px;
+    border: 5px dotted red;
+    margin: 40px;
+} */
+
+/* .box-model > div {
+    float: left;
+    background: black;
+    border: 4px solid blue;
+    height: 150px;
+    width: 50%;
+    box-sizing: border-box;
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0px 20px;   
+}
+
+.list li {
+    color: rgb(53, 64, 72);
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color:rgb(162, 10, 28);
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: gray;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Position */
+
+/* .position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.box {
+    position: fixed;
+    top: 30%;
+    left: 0px;
+    width: 50px;
+    height: 400px;
+    background: chocolate;
+} */
